@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="stylesheet" href="/style/style.css">
-  </head>
   
-   
+  
+  </head> 
   <body>
   <div id="entireHeader">
   <div id="intro-panel">
@@ -17,34 +17,33 @@
   </div> 
   <nav class="navbar navbar-expand-lg navbar-inverse">
   <div id="navbarNavAltMarkup">
-  <div class="navbar-nav">
-  <a class="nav-item nav-link active" href="#">Home Page</a>
-  <a class="nav-item nav-link" href="/index/dominosuxerror.html">Domino's Bad UI Design</a>
-  <a class="nav-item nav-link" href="/index/improveddominosux.html">Improved Domino's Design</a>
+    <div class="navbar-nav"
+    <a class="nav-item nav-link active" href="../index.html">Home</a>
+    <a class="nav-item nav-link" href="dominosuxerror.html">Bad UX Design</a>
+    <a class="nav-item nav-link" href="#">Improved Design</a>
   </div>
   </div>
   </nav>
   </div>
   <div id="allContent">
     <div class="info">
-      <p>There are a couple of way I would go about cleaning up the Domino's UI for a better overall customer experience the first would be to add radio selected instead of "Tap To Add and Tap to Remove" this would counter redudancy and make for a cleaner experience. Then if you do choose one of the options instead of having to click + or - to go thru the options for light,normal, and extra sauce I would just put input bottons for all three.<br/><br/>
+      <p>There are a couple of ways I would go about cleaning up the Domino's UI for a better overall customer experience the first would be to add radio selected instead of "Tap To Add and Tap to Remove" this would counter redudancy and make for a cleaner experience. Then if you do choose one of the options instead of having to click + or - to go thru the options for light,normal, and extra sauce I would just put input bottons for all three.<br/><br/>
     </div>
     <div id="showcase">
       <h4>2</h4>
       <div id="sauceOptions">
         <p>Pick a sauce</p>
-      <input type='radio' name='Honey BBQ sauce' value=''><br>
-      <input type='radio' name='Hearty Marinara sauce' value=''><br>
-      <input type='radio' name='Ranch' value=''><br><br>
+      <input type='radio' name='Honey BBQ sauce' value='Honey BBQ sauce'><br>
+      <input type='radio' name='Hearty Marinara sauce' value='Hearty Marinara sauce'><br>
+      <input type='radio' name='Ranch' value='Ranch'><br><br>
 
       </div>
       <br/>
       <h4>What Amount of sauce would you like?</h4>
       <div id="moreDetail">
-        <button type="button" class="btn btn-light detail initialAvailable">N/A</button>
-        <button type="button" class="btn btn-light detail numdetail initialAvailable" id="light">light</button>
-        <button type="button" class="btn btn-light detail numdetail initialAvailable" id="normal" >normal</button>
-        <button type="button" class="btn btn-light detail numdetail initialAvailable" id="extra">extra</button>
+        <button type="button" class="btn btn-light nonnum" >Light</button>
+          <button type="button" class="btn btn-light nonnum">Normal</button>
+          <button type="button" class="btn btn-light nonnum">Extra</button>
       </div>
     </div>
     <div id="console-box"> 
