@@ -1,0 +1,32 @@
+h2 {
+    background-color: black;
+    color: gray;
+    padding-left: 45px;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  form {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 25px;  
+  }
+  
+  .card {
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+
+  #button3 {
+    background-color: blue;
+    margin-left: 25px;
+  }
+  
+  #footer {
+    padding: 25px;
+    color: blue;
+  }
