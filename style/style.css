@@ -64,7 +64,7 @@ body{
 }
 
 .navbar-nav, .navbar {
-  background-color: whitesmoke;
+  background-color: white;
 
 }
 
@@ -96,7 +96,7 @@ body{
 }
 
 .card-title {
-  background-color: whitesmoke;
+  background-color: white;
   margin-top: 0px;
   font-size: 25px;
   color: white;
@@ -116,7 +116,7 @@ a {
 }
 
 a {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
 }
 
@@ -169,31 +169,6 @@ footer{
 
 }
 
-#console-box{
-  position:relative;
-  height:300px;
-  width:40%;
-  background-color:#000;
-  color: #55ff55;
-  font-family: monospace;
-  padding:6px; 
-  margin: 2% auto;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
-  border: 2px solid #161616;
-  font-size: 14px;
-}
-
-#gradeSelection, #moreDetail {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.grade{
-  width: 10%;
-}
 
 .detail {
   width: 20%;
