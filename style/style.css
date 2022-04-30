@@ -64,7 +64,8 @@ body{
 }
 
 .navbar-nav, .navbar {
-  background-color: #5c42f4;
+  background-color: orangered;
+
 }
 
 .nav-link {
@@ -95,7 +96,7 @@ body{
 }
 
 .card-title {
-  background-color: grey;
+  background-color: whitesmoke;
   margin-top: 0px;
   font-size: 25px;
   color: white;
@@ -109,39 +110,39 @@ a {
   text-decoration: none;
 }
 
-#thumbUp, #thumbDown {
-  height: 140px;
-  margin-bottom: 5px;
+#smileyFace, #sadFace {
+  height: 133px;
+  margin-bottom: 3px;
 }
 
 a {
-  color: black;
+  color: whitesmoke;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 }
 
 footer{
-  margin-top: 50px;
-  width: 80%;
+  margin-top: 9px;
+  width: 75%;
   margin: auto;
 }
 
 #footer-block {
   margin: 0px auto;
-  border-top: 1px grey solid;
+  border-top: 3px grey;
   text-align: center;
-  color: black;
-  font-size: 10px;
+  color: whitesmoke;
+  font-size: 12px;
 }
 
 #evalHead {
-  margin-top: 10px;
-  width: 90%;
-  border: 2px solid #dbdbdb;
+  margin-top: 19px;
+  width: 66%;
+  border: 3px solid #dbdbdb;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
   margin-left: auto;
   margin-right: auto;
