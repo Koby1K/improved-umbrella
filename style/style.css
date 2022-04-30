@@ -64,12 +64,12 @@ body{
 }
 
 .navbar-nav, .navbar {
-  background-color: white;
+  background-color: black;
 
 }
 
 .nav-link {
-  color: white;
+  color: black;
 }
 
 .card {
@@ -116,13 +116,13 @@ a {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 footer{
