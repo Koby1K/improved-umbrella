@@ -1,7 +1,7 @@
 body{
   font-family: 'Lato', sans-serif;
   margin: auto;
-  background-color:darkslategray;
+  background-color:white;
 }
 
 #entireHeader {
@@ -28,10 +28,7 @@ body{
   font-size: 28px;
 }
 
-/* #profile:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-} */
+
 
 .info {
   margin-top: 10px;
