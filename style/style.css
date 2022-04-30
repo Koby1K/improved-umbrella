@@ -50,7 +50,7 @@ body{
 }
 
 .navbar-nav, .navbar {
-  background-color: purple;
+  background-color: black;
 }
 
 .nav-link {
@@ -78,7 +78,7 @@ body{
 }
 
 .card-title {
-  background-color: grey;
+  background-color: white;
   margin-top: 0px;
   font-size: 25px;
   color: white;
