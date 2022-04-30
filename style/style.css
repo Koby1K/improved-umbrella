@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'Times New Roman', Times, serif;
   margin: auto;
   background-color: white;
 }
 
-#entireHeader {
-  width: 100%; 
-  bottom: 15px;
-  position: relative;
-}
+
 
 #allContent {
   width: 80%;
@@ -27,15 +23,6 @@ body{
   margin: 20px;
 }
 
-#intro-block {
-  font-size: 20px;
-  margin-top: 15px;
-  margin-left: 10%;
-}
-
-#intro-block h2 {
-  font-size: 28px;
-}
 
 #profile:hover {
   -webkit-transform: scaleX(-1);
@@ -61,7 +48,7 @@ body{
 }
 
 .navbar-nav, .navbar {
-  background-color: #070511;
+  background-color: #f73a00f6;
 }
 
 .nav-link {
@@ -97,8 +84,8 @@ body{
   font-size: 25px;
   color: white;
   position: relative;
-  bottom: 3px;
-  height: 35px;
+  bottom: 1px;
+  height: 30px;
 }
 
 a {
@@ -106,9 +93,10 @@ a {
   text-decoration: none;
 }
 
-#thumbUp, #thumbDown {
-  height: 70px;
-  margin-bottom: 1px;
+#sadFace, #sadFace {
+  height: 50px;
+  margin-bottom: 3px;
+  margin-top: 1px;
 }
 
 a {
